@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react'; //import React Component
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate as navigateTo } from 'react-router-dom';
 
 function App() {
   return (
